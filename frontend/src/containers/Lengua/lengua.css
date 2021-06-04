@@ -1,0 +1,49 @@
+.left {
+    display: block;
+    margin: auto;
+    width: 900px;
+    height: 600px;
+    background-color: transparent;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.title{
+    text-align: justify;
+    font-size: 80px;
+    font-weight: 700;
+    position: relative;
+    left: 60px;
+    bottom: -190px;
+    color: transparent;
+    background-image: linear-gradient(to left, #2ecc71, #3498db, #9b59b9, #f39c12);
+    -webkit-background-clip: text;
+    animation: animate 2s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+}
+
+.subtitle {
+    text-align: justify;
+    font-size: 80px;
+    font-weight: 700;
+    position: relative;
+    left: 200px;
+    bottom: -130px;
+    color: transparent;
+    background-image: linear-gradient(to left, #1f9651, #3498db, #70338d, #6c1183);
+    -webkit-background-clip: text;
+    animation: animate 2s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+    background-position: -100%;
+}
+
+@keyframes animate {
+    from {
+        background-position: 0%;
+    }  
+    to {
+        background-position: 100%;
+    }
+}

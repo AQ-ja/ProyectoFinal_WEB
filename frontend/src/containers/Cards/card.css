@@ -1,0 +1,61 @@
+.xop {
+    display: block;
+    left: -400px;
+    width: 900px;
+    bottom: -50px;
+    height: 600px;
+    background-color: transparent;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.h1{
+    text-align: justify;
+    font-size: 80px;
+    font-weight: 700;
+    position: relative;
+    right: 0px;
+    bottom: -150px;
+    color: transparent;
+    background-image: linear-gradient(to right, #3a8660, #3498db, #9b59b9, #7700ff);
+    -webkit-background-clip: text;
+    animation: animat1 2s infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+    background-position: -100%;
+}
+
+@keyframes animat1 {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-color: 100%;
+    }
+}
+
+
+.h2 {
+    text-align: justify;
+    font-size: 80px;
+    font-weight: 700;
+    position: relative;
+    bottom: -90px;
+    left: -100;
+    color: transparent;
+    background-image: linear-gradient(to right, #208fd8, #28a04c, #8f0f35, #f39c12);
+    -webkit-background-clip: text;
+    animation: animat2 2s infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+    background-position: -100%;
+}
+
+@keyframes animat2 {
+    from {
+        background-position: 0%;
+    }  
+    to {
+        background-position: 100%;
+    }
+}

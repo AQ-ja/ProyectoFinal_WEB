@@ -1,0 +1,74 @@
+.container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+}
+
+.titleuno {
+    font-size: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 5s 1;
+}
+
+@keyframes text {
+    0% {
+        color: transparent;
+        margin-top: -190px;
+    }
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -190px;
+    }
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -190px;
+    }
+}
+
+.titledos {
+    font-size: 60px;
+    font-weight: 500;
+    color: rgb(236, 57, 57);
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    position: relative;
+    animation: text2 5s 1;
+}
+
+@keyframes text2 {
+    0% {
+        color: transparent;
+    }
+
+    30% {
+        color: transparent;
+        border-top: -200px;
+    }
+
+    80% {
+        color: transparent;
+    }
+}
+
+    
+.titletres {
+    font-size: 70px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    position: relative;
+    animation: text2 5s 1;
+}
+
