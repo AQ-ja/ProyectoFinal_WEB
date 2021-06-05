@@ -1,7 +1,7 @@
-# proyecto_ingeneriaS1
+# PROYECTO FINAL DE SISTEMAS
 
 ## Instalación 🔧
-
+- ´se debe de estar dentro de la carpeta Frontend´
 
 Para comenzar:
 
