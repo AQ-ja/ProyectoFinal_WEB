@@ -1,8 +1,8 @@
 # PROYECTO FINAL DE SISTEMAS
 
 ## Instalación 🔧
-- ´se debe de estar dentro de la carpeta Frontend´
-
+- se debe de estar dentro de la carpeta Frontend 
+- para la instalacion de los modulos.
 Para comenzar:
 
 
